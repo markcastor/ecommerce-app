@@ -1,13 +1,13 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
+import Container from '../components/Container'
 const ShippingPolicy = () => {
   return (
     <>
         <Meta title={"Shipping Policy"}/>
      <BreadCrumb title="Shipping Policy"/>
-     <div className="policy-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+     <Container class1="policy-wrapper py-5 home-wrapper-2">
             <div className="row">
                 <div className="col-12">
                     <div className="policy">
@@ -15,8 +15,7 @@ const ShippingPolicy = () => {
                     </div>
                 </div>
             </div>
-        </div>
-     </div>
+        </Container>
     </>
   )
 }

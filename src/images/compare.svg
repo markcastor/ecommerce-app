@@ -1,0 +1,12 @@
+<svg width="35px" height="35px" fill="#ffffff" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <defs></defs>
+    <g id="4.-To-refresh" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(0.000000, 8.000000)" stroke="#ffffff" stroke-width="4">
+            <path d="M89,40 C89,17.90861 71.09139,0 49,0 C34.1239759,0 21.1446258,8.12062657 14.2530697,20.1707596" id="Layer-1"></path>
+            <polyline id="Layer-2" transform="translate(89.000000, 37.000000) scale(1, -1) rotate(11.000000) translate(-89.000000, -37.000000) " points="79 42 89 32 99 42"></polyline>
+            <path d="M91,84 C91,61.90861 73.09139,44 51,44 C36.1239759,44 23.1446258,52.1206266 16.2530697,64.1707596" id="Layer-3" transform="translate(51.000000, 64.000000) scale(-1, -1) translate(-51.000000, -64.000000) "></path>
+            <polyline id="Layer-4" transform="translate(11.000000, 47.000000) scale(-1, 1) rotate(11.000000) translate(-11.000000, -47.000000) " points="1 52 11 42 21 52"></polyline>
+        </g>
+    </g>
+</svg>

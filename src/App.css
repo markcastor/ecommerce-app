@@ -638,11 +638,12 @@ footer .input-group-text{
   font-weight: 400;
   color: var(--color-1c1c1b);
 }
-.auth-card .signup {
+.signup {
   background-color: var(--color-febd69);
   color: var(--color-131921);
+  border: none;
 }
-.auth-card .signup:hover {
+.signup:hover {
   background-color: var(--color-131921);
   color: white;
 }
@@ -706,11 +707,111 @@ footer .input-group-text{
 }
 .main-product-image img{
   width: 100% !important;
-  height: 500px !important;
+  height: 600px !important;
   object-fit: cover;
 }
+.other-product-images{
+  background-color: white;
+  padding: 20px;
+}
+.other-product-images > div {
+  padding: 20px;
+  width: 48%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.main-product-image .js-image-zoom__zoomed-image{
+  left: 40px !important;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1000;
+}
+.main-product-details {
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.main-product-details h3.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 10px;
+}
+
+.main-product-details p.price {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight:600;
+  
+  margin-bottom: 10px;
+}
+.main-product-details a.review-btn, 
+.t-review {
+  color: var(--color-777777);
+  font-size: 13px;
+}
+.product-heading {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+  margin-bottom: 0;
+}
+.product-data {
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-bottom: 0;
+}
+.main-product-details a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+/* Main roduct Page Ends*/
+
+/* Cart Page */
+.cart-header,
+.card-data {
+  border-bottom: 1px solid #eaeaea;
+}
+.cart-header h4 {
+  font-size: 13px;
+  color: var(--color-777777);
+
+}
+.cart-col-1 {
+  width: 40%;
+}
+.cart-col-1 p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.cart-col-2 {
+  width: 10%;
+}
+.cart-col-3 {
+  width: 15%;
+}
+.cart-col-4 {
+  width: 15%;
+}
+.card-data h5.price {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+
+}
+/* Cart Page Ends*/
 
 
 
-/* Main roduct Page */
+/* Shipping Page */
 
+.total {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+}
+.total-price {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+/* Shipping Page Ends  */

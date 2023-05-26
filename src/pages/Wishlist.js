@@ -1,14 +1,14 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
+import Container from '../components/Container'
 
 const Whishlist = () => {
   return (
     <>
       <Meta title={"Wishlist"}/>
      <BreadCrumb title="Wishlist"/>
-     <div className="wishlist-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+     <Container class1="wishlist-wrapper home-wrapper-2 py-5">
           <div className="row">
             <div className="col-3">
               <div className="wishlist-card position-relative">
@@ -63,8 +63,7 @@ const Whishlist = () => {
               </div>
             </div>
           </div>
-        </div>
-     </div>
+        </Container>
     </>
   )
 }
