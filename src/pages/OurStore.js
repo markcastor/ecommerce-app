@@ -175,10 +175,10 @@ const OurStore = () => {
                             <div className="d-flex align-items-center gap-10">
                                 
                                 <p className="mb-0 d-block" style={{"width":"100px"}}>Sort By:</p>
-                                <select name="" id="" className="form-control form-select">
-                                    
+                                <select name="" id="" defaultValue={"manual"} className="form-control form-select">
+                                        
                                         <option value="manual">Featured</option>
-                                        <option value="best-selling" selected="selected">
+                                        <option value="best-selling" >
                                             Best Selling
                                         </option>
                                         <option value="title-ascending">

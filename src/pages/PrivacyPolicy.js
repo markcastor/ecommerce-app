@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
             </div>
         </Container>
     </>
-  )
+   )
 }
 
 export default PrivacyPolicy
