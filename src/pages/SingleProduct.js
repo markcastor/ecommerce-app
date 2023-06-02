@@ -140,7 +140,7 @@ const SingleProduct = () => {
                 </div>
             </div>
      </Container>
-     <Container className="description-wrapper py-5 home-wrapper-2">
+     <Container className="description-wrapper home-wrapper-2 py-5">
             <div className="row">
                 <div className="col-12 ">
                 <h4>Description</h4> 
@@ -235,6 +235,7 @@ const SingleProduct = () => {
             </div>
 
      </Container>
+     
      <Container className='popular-wrapper py-5 home-wrapper-2 py-5'>
           <div className='row'>
             <div className='col-12'>
